@@ -1,0 +1,21 @@
+
+
+body{
+   
+    
+    background-color:#96bb41; 
+    
+}
+
+.Float-left{
+    float: left;
+}
+.Float-right{
+    float:right;
+}
+.back-black{
+    background: black !important;
+}
+#customBack{
+    background: black;  
+}

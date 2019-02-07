@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     
+    <meta charset="utf-8"/>
+    <title>Доставки</title>
+    <link rel="stylesheet" href='css/bootstrap.min.css'/>
+    <link rel="stylesheet" href='css/style.css'/>
+</head>
+ <body>
+  
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> 
+          <a class="navbar-brand" href="index.html" style="color: rgb(82, 224, 113)">
+              <img src="/img/Aliflogo.png" width="30" height="30" alt="" >Alif-Delivery
+            </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              
+                <a class="nav-link" href="index.html">Главная<span class="sr-only">(current)</span></a>
+                
+                 <li class="nav-item dropdown">
+                        
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <strong>Заказы</strong>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="Zakaz.html">Все заказы</a>
+                      <a class="dropdown-item" href="#">Добавить заказ</a>
+                      <a class="dropdown-item" href="#">Удалить заказ</a>
+    
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="Comand.html">Все курьеры</a>
+                    </div>
+                    
+                    
+                  </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Курьеры
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Курьер-1</a>
+                  <a class="dropdown-item" href="#">Курьер-2</a>
+                  <a class="dropdown-item" href="#">Курьер-3</a>
+
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="Comand.html">Все курьеры</a>
+                </div>
+                
+                
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 Отчеты
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Сегодня</a>
+                    <a class="dropdown-item" href="#">Вчера</a>
+                    <a class="dropdown-item" href="#">Выбрать время:</a>
+  
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Все время</a>
+                  </div>
+                  
+                  
+                </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+                        
+          </div>
+          <button class="btn btn-danger navbar-btn">Выход</button>
+        </nav>
+        
+<div class="jumbotron" style="margin: 20px">
+    <h1 class="display-4" >Доставки</h1>
+<div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Сортировать по:
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Времени</a>
+          <a class="dropdown-item" href="#">Статусу</a>
+          <a class="dropdown-item" href="#">Району</a>
+        </div>
+      </div></p>
+   
+  <span >
+      <p class="lead "> 
+            <table class="table .table-striped">
+                <thead class="thead-dark ">
+                    
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Url</th>
+                        <th scope="col">Status</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mehrob Latipov</td>
+                        <td>Mehob.com</td>
+                        <td>Ждет доставки</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Alisher Navoi</td>
+                        <td>ALisher.com</td>
+                        <td>Доставлено</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Rudaki Mobile</td>
+                        <td>Rudaki.com</td>
+                        <td>Не поднимает трубку</td>
+                      </tr>
+                    </tbody>
+                  </table>
+           <a class="btn btn-primary btn-lg" href="" role="button">Добавить заказ</a>
+  </span>
+
+  <hr class="my-4">
+  
+</div>
+<div class="card-footer text-center back-black" >
+        Made in alif
+    </div> 
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>   
+</body>
+
+</html>
