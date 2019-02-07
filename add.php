@@ -15,3 +15,10 @@ foreach($arr as $key=>$value){
         echo '$key['. $key .'] = value[' .$value .']<br/>';
     }
 }
+
+
+while($k < 100) 
+{
+  echo "<br/>mehrob";
+  $k++;
+}
