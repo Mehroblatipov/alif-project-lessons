@@ -50,8 +50,12 @@ for ($j = 0; $j < count($array) - 1; $j++){
 var_dump($array)
 ?>
 <?php
+$arraynew1=[];
 $array=[1, 0, 6, 9, 4, 5, 2, 3, 8, 7] ; 
 unset($array[3]);
 print_r($array);
+ foreach($array as $arraynew){
+$arraynew1[]=$arraynew;}
+print_r($arraynew1);
 
 ?>
